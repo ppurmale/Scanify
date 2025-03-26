@@ -4,7 +4,33 @@
 }
 #sakums {
   background-color: #E6C4C4;
+  height: 30vh;
 }
 #virsraksts{
-  margin-left: 20px;
+  margin-left: 50px;
+  color: white;
+  font-size: 89px;
 }
+
+#moto{
+  margin-left: 53px;
+  color: white;
+  font-size: 40px;
+}
+
+li{
+    display: inline;
+  font-size: 32px;
+  color: white;
+  margin-right: 20px;
+  }
+#kkk{
+  background-color: rgb(255,223,223);
+  margin-top: 25px;
+
+
+}
+p{
+  color: rgb(255,223,223)
+}
+
