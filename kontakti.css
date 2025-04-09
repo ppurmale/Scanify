@@ -23,10 +23,10 @@
 }
 
 li{
-    display: inline;
+   display: inline;
   font-size: 32px;
   color: white;
-  margin-right: 60px;
+  margin-right: 200px;
   }
 ul{
   margin-top: 15px;
@@ -46,7 +46,7 @@ img{
 }
 #sakums-main{
   background-color: white;
-  width: 200px;
+  width: 260px;
   height: 60px;
   margin-right: 750px;
   text-align: center;
@@ -62,15 +62,7 @@ img{
   color: rgb(133,102,102);
 
 }
-#teksts2{
-  margin-top: 40px;
-  font-size: 45px;
-  text-align: center;
-  margin-right: 150px;
-  font-weight: bold;
-  color: rgb(133,102,102);
- 
-}
+
 
 #foto{
   margin-right: 30px;

@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#sakums {
+  background-color: #E6C4C4;
+  height: 30vh;
+  display: flex;
+  justify-content: space-between;
+
+}
+#virsraksts{
+  margin-left: 50px;
+  color: white;
+  font-size: 120px;
+  margin-top: 30px;
+}
+
+#moto{
+  margin-left: 53px;
+  color: white;
+  font-size: 60px;
+}
+
+li{
+   display: inline;
+  font-size: 32px;
+  color: white;
+  margin-right: 200px;
+  }
+ul{
+  margin-top: 15px;
+}
