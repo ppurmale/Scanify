@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#sakums {
+  background-color: #E6C4C4;
+  height: 30vh;
+  display: flex;
+  justify-content: space-between;
+
+}
+#virsraksts{
+  margin-left: 50px;
+  color: white;
+  font-size: 120px;
+  margin-top: 30px;
+}
+
+#moto{
+  margin-left: 53px;
+  color: white;
+  font-size: 60px;
+}
+
+li{
+   display: inline;
+  font-size: 32px;
+  color: white;
+  margin-right: 200px;
+  }
+ul{
+  margin-top: 15px;
+}
+#gaisirozais{
+ background-color: rgb(255,232,232);
+  margin-top: 100px;
+  padding-bottom:100px;
+  margin-bottom: 0px;
+  margin-right: 320px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  display: flex;
+}
+img{
+  margin-top: 40px;
+}
+#sakums-main{
+  background-color: white;
+  width: 210px;
+  height: 60px;
+  margin-right: 700px;
+  text-align: center;
+  color: rgb(133,102,102);
+margin-top:60px;
+  font-size: 50px;
+  margin-left: 20px;
+}
+
+#ierakstit-vardu{
+  background-color: white;
+  width: 800px;
+  height: 60px;
+  margin-right: 600px;
+  margin-top: 25px;
+  font-size: 50px;
+  text-align: center;
+  margin-left: 200px;
+  color: rgb(133,102,102);
+  border: none;
+}
+
+#ierakstit-numuru{
+  background-color: white;
+  width: 800px;
+  height: 60px;
+  margin-right: 600px;
+  margin-top: 25px;
+  font-size: 50px;
+  text-align: center;
+  margin-left: 200px;
+  color: rgb(133,102,102);
+  border: none;
+}
+#ierakstit-sudzibu{
+  background-color: white;
+  width: 800px;
+  height: 60px;
+  margin-right: 600px;
+  margin-top: 25px;
+  font-size: 50px;
+  text-align: center;
+  margin-left: 200px;
+  color: rgb(133,102,102);
+  border: none;
+}
+#iesniegt{
+  background-color: white;
+  width: 800px;
+  height: 60px;
+  margin-right: 600px;
+  margin-top: 25px;
+  font-size: 50px;
+  text-align: center;
+  margin-left: 200px;
+  color: rgb(133,102,102);
+  text-weight: bold;
+}
