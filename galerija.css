@@ -31,3 +31,18 @@ li{
 ul{
   margin-top: 15px;
 }
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.gal-1{
+  margin-right: 80px;
+}
+.container2 {
+  display: flex;
+  flex-direction: row;
+}
+.gal-2{
+  margin-right: 50px;
+}
