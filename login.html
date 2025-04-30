@@ -1,37 +1,38 @@
+
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>replit</title>
   <link href="login.css" rel="stylesheet" type="text/css" />
 </head>
-
 <body>
   <div id="sakums">
     <div>
-<h1 id="virsraksts">Scanify</h1>
-  <h2 id="moto">Scan and match!</h2>
+      <h1 id="virsraksts">Scanify</h1>
+      <h2 id="moto">Scan and match!</h2>
     </div>
   </div>
-  
-
-    <div id="gaisirozais">
-      <div id="temp">
-<input id="ierakstit-vardu" type="text" placeholder="Ievadi lietotājvārdu">
-        <input id="ierakstit-paroli" type="text" placeholder="Ievadi paroli">
-        <input id="ierakstit-paroli2" type="text" placeholder="Ievadi paroli atkārtoti">
-        <button id=pieslegties>Pieslēgties</button>
-        </div>
+  <div id="gaisirozais">
+    <div id="temp">
+      <input id="ierakstit-vardu" type="text" placeholder="Lietotājvārds" required>
+      <input id="ierakstit-paroli" type="password" placeholder="Parole" required>
+      <input id="ierakstit-paroli2" type="password" placeholder="Parole atkārtoti" required>
+      <button id="pieslegties" onclick="validateAndRedirect()">Pierakstīties</button>
     </div>
-      <div id="flex">
+  </div>
 
-
-    </div>
-
-
-
-
-  <script src="script.js"></script>
+  <script>
+    function validateAndRedirect() {
+      const username = document.getElementById('ierakstit-vardu').value;
+      const password = document.getElementById('ierakstit-paroli').value;
+      const password2 = document.getElementById('ierakstit-paroli2').value;
+      
+      if (username && password && password2) {
+        window.location.href = 'index.html';
+      }
+    }
+  </script>
 </body>
+</html>
